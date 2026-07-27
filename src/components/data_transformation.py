@@ -78,8 +78,8 @@ class DataTransformation:
                 obj=preprocessing_obj
             )
             return (
-                input_feature_train_arr,
-                input_feature_test_arr,
+                train_arr,
+                test_arr,
                 self.data_transformation_config.preprocessor_obj_file_path,
             )
 
